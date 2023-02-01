@@ -1,0 +1,5 @@
+(sausage 825)
+(whole milk 717)
+(frankfurter 580)
+(tropical fruit 482)
+(other vegetables 460)
