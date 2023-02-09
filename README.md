@@ -23,7 +23,8 @@ docker-compose up -d
 ## start a worker shell
 
 ```sh
-docker exec -it docker-spark-cluster_spark-worker-a_1 bash
+docker exec -it apache-spark-cluster-docker_spark-worker-a_1 bash
+pip3 install requests
 
 ```
 

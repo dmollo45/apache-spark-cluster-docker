@@ -15,7 +15,7 @@ parDF1.printSchema()
 # base for sql queries
 parDF1.createOrReplaceTempView("parquetTable")
 # run sql statement to produce new table
-parkSQL = spark.sql("select max(price) as min_price, min(price) as max_price, count(price) as row_count from ParquetTable ")
+parkSQL = spark.sql("select min(price) as min_price, max(price) as max_price, count(price) as row_count from ParquetTable ")
 # print query result to console
 parkSQL.show(truncate=False)
 # write csv file
